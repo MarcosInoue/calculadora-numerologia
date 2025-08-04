@@ -412,13 +412,7 @@ st.markdown("""
 Bem-vindo(a)! Insira o nome completo de nascimento (exatamente como no registro)
 e a data de nascimento para calcular o mapa numerológico pitagórico completo.
 
-**Melhorias desta versão:**
-- ✅ Cálculo correto: reduz SEMPRE nas partes, preserva mestres só no final
-- ✅ Ano Pessoal considera se já fez aniversário
-- ✅ Aceita até 8 partes do nome com até 25 letras cada
-- ✅ Pináculos, Ciclos e Desafios com idades específicas baseadas no Caminho de Vida
-- ✅ Mostra qual Pináculo e Ciclo estão ativos na idade atual
-- ✅ Usa apenas números mestres 11 e 22
+
 """)
 
 # --- Inputs do Usuário ---
@@ -668,3 +662,4 @@ with st.expander("ℹ️ Sobre os Cálculos"):
     - Se já fez aniversário: usa o ano atual
     - Se ainda não fez: usa o ano anterior
     """)
+
